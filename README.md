@@ -6,3 +6,5 @@ Después se descarga a la rama de natacha el index que esta en la página de des
 Después se realiza merge con development.
 Después se borra la página de natacha.htlm y se trabaja todo desde el index de la rama de natacha.
 Después se hace el merge desde la rama natacha con los cambios en el index de development.
+Después se modifica la sección 1, sección de servicios de acuerdo a los requerimientos del Sprint 1.
+Después se divide la sección 1 a lo ancho en tres partes, con su respectivo enlace.
