@@ -9,3 +9,4 @@ Después se hace el merge desde la rama natacha con los cambios en el index de d
 Después se modifica la sección 1, sección de servicios de acuerdo a los requerimientos del Sprint 1.
 Después se divide la sección 1 a lo ancho en tres partes, con su respectivo enlace.
 Después se unifica el formato de estilos de acuerdo al creado por Diana.
+Después se modifica el alto d ela sección a 500 px.

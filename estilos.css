@@ -5,7 +5,7 @@ body{
 }
 
 .content{
-     width: 1200px;
+    width: 1200px;
     background-color:  #F5B7B1;
     height: 2000px;
     -ms-flex-item-align: center;
@@ -107,7 +107,7 @@ body{
 }
 
 .section-1{
-    height: 300px;
+    height: 500px;
     background-color: #F5B7B1;
 }
 .section-text {
@@ -120,8 +120,8 @@ body{
 }
 
 .columns{
-    width: 100%;
-    height: 130px;
+    width: 300%;
+    height: 10px;
     background-color: #F5B7B1;
     display: inline-block;
     padding: -10px;
@@ -133,7 +133,7 @@ body{
 .services{
     width: 100%;
     background-color: #F5B7B1;
-    height: 330px;
+    height: 500px;
     display: -webkit-inline-box;
     display: -ms-inline-flexbox;
     display: inline-flex; 
