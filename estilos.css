@@ -9,7 +9,7 @@ body{
     background-color:  #F5B7B1;
     height: 2000px;
     -ms-flex-item-align: center;
-        align-self: center;
+    align-self: center;
     margin: 0px auto;
     padding: 0 auto;
 }
@@ -87,6 +87,177 @@ body{
     
 }
 
+.mainMenu__link{
+    text-decoration: none;
+    font-size: 1rem;
+    color: #1d1b1b;
+}
+
+.mainMenu__link:hover{
+    text-decoration: underline;
+    font-weight: bold;
+    size: 1.5rem;
+    color: #Ffffff;
+}
+
+
+
+.section-news{
+    height: 670px;
+    background-color: #F5B7B1;
+}
+.section-text {
+    margin: 0;
+    color: #3e3e3e;
+    background: white;
+    font-weight: bold;
+    text-align: center;
+    align-items: center;
+}
+
+.columns{
+    width: 100%;
+    height: 130px;
+    background-color: #F5B7B1;
+    display: inline-block;
+    padding: -10px;
+    margin-top: 0px;
+    text-align: center;
+
+}
+
+
+.news{
+    width: 100%;
+    background-color: #F5B7B1;
+    height: 300px;
+    display: -webkit-inline-box;
+    display: -ms-inline-flexbox;
+    display: inline-flex; 
+    margin-bottom: 20px;
+
+}
+
+.news-text{
+    color: black;
+    text-align: justify;
+    width: 60%;
+    padding: 1em 0;
+    padding-top: 5px;
+    border-top-width: 10px;
+    margin-top: 10px;
+    padding-left: 25px;
+
+}
+
+.news-text > span.news-url{
+    text-align: left;
+
+}
+
+.news-url{
+    font-size: 1.1rem;
+    float:bottom;
+
+}
+
+.news-url > a{
+
+    color: #C0392B; 
+    border: 4px solid white;
+    border-radius: 6px;
+    background: white;
+    size:1.6rem;
+    align-items: baseline;
+    
+}
+
+.news-data{
+    width: 49%;
+    height: 100%;
+    background-color:#F1948A   ;
+    display: -webkit-inline-box;
+    display: -ms-inline-flexbox;
+    display: inline-flex; 
+    margin: 16 6px;
+    border-radius: 20px;
+}
+
+.news-title {
+    margin-bottom: 10px;
+}
+.news-body {
+    margin-bottom: 10px;
+}
+
+.news-image{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-left: 15px;
+    margin-right: 15px;
+}
+.news-image img{
+    height: 50%;
+}
+
+
+.container-footer-all{
+    width: 100%;
+    max-width: 700px;
+    margin: auto;
+    padding: 50px;
+
+}
+
+.container-body{
+    display: flex;
+    justify-content: space-between;
+    padding: 20px;
+}
+
+.nav-element:hover{
+    text-decoration: underline;
+    font-weight: bold;}
+
+.column1 h1{
+    font-size: 22px;
+    text-align: center;
+    width: 60%;
+}
+
+.column2, .column3 {
+    padding: 0 20px;
+}
+
+.column2 {
+    width: 25%;
+}
+
+.column2 img {
+    width: 24px;
+    height: 24px;
+}
+.column3 img{
+    width: 24px;
+    height: 24px;
+}
+
+.mainMenu{
+    margin-top: 0;
+    margin-bottom: 0;
+    padding-left: 0;
+    list-style: none;
+    display: flex;
+    justify-content: space-evenly;
+
+}
+
+.mainMenu__item{
+    line-height: 4;
+    
+}
+
 /*.mainMenu__item:hover{
     background: #B02B9B;
     border-radius: 10px;
@@ -106,8 +277,7 @@ body{
     color: #Ffffff;
 }
 
-.section-1{
-    height: 500px;
+.section-serveces{
     background-color: #F5B7B1;
 }
 .section-text {
@@ -133,7 +303,7 @@ body{
 .services{
     width: 100%;
     background-color: #F5B7B1;
-    height: 500px;
+    height: 400px;
     display: -webkit-inline-box;
     display: -ms-inline-flexbox;
     display: inline-flex; 
@@ -144,25 +314,29 @@ body{
 .services-text{
     color: black;
     text-align: justify;
-    width: 60%;
+    width: 100%;
     padding: 1em 0;
     padding-top: 5px;
-    border-top-width: 10px;
-    margin-top: 10px;
-    padding-left: 25px;
-  
-}
-
-.services-text > span.news-url{
-    text-align: left;
+    border-top-width: 5px;
+    margin-top: 5px;
+    padding-left: 15px;
 
 }
 
-.news-url{
-    font-size: 1.1rem;
-    float:bottom;
+.container-footer2{
+    width: 100%;
+    background: rgb(169, 164, 243);
 
 }
+
+.footer2{
+    max-width: 1200px;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+    padding: 15px;
+}
+
 
 .news-url > a{
 
@@ -182,7 +356,7 @@ body{
     display: -webkit-inline-box;
     display: -ms-inline-flexbox;
     display: inline-flex; 
-    margin: 16 6px;
+    margin: 6 6px;
     border-radius: 20px;
 }
 
@@ -201,9 +375,28 @@ body{
     margin-right: 15px;
 }
 .services-image img{
-    height: 50%;
+    height: 40%;
 }
 
+.section-serveces{
+    height: 450px;
+}
+
+.section-teams{
+    height: 400px;
+}
+
+footer{
+    width: 1200px;
+    height: 350px;
+    background: rgb(108, 101, 202);
+    color: rgb(254, 240, 255);
+    position:absolute;
+    box-sizing: border-box;
+    margin-top: -50px;
+
+
+}
 .campos-formulario{
     margin-bottom: 10px;
     margin-top: 10px;
