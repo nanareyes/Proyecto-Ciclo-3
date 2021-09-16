@@ -10,3 +10,5 @@ Después se modifica la sección 1, sección de servicios de acuerdo a los reque
 Después se divide la sección 1 a lo ancho en tres partes, con su respectivo enlace.
 Después se unifica el formato de estilos de acuerdo al creado por Diana.
 Después se modifica el alto d ela sección a 500 px.
+Después se coloca en todas las páginas de servicios el header y el footer.
+Después se importa el bootstrap.

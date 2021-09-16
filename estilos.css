@@ -402,3 +402,10 @@ footer{
     margin-top: 10px;
     margin-left: 30px;
 }
+
+.estilo-icono {
+    font-size: 64px;
+    border-style: outset;
+    background-color: #F5B7B1;
+}
+    
