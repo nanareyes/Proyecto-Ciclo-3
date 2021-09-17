@@ -4,7 +4,7 @@ body{
     background-color:rgb(236, 227, 238);
 }
 
-.content{
+.container{
     width: 1200px;
     background-color:  #FAF4EB;
     height: 2000px;
@@ -20,7 +20,7 @@ body{
 
 }
     
-.content-menu{
+.container-menu{
     height: 60px;
     background-color: #C39BD3 ;
     display: -webkit-box;
@@ -29,7 +29,7 @@ body{
     width: 100%;
 }
 
-.content-name{
+.container-name{
     width: 100%;
     height: inherit;
     background-color: #Ffffff;
@@ -38,7 +38,7 @@ body{
     height: 60px;
 }
 
-.content-imagen{
+.container-imagen{
     height: 120px;
     background-color: #FAF4EB;
     margin-bottom: 20px; 
@@ -47,7 +47,7 @@ body{
     margin-left: 20px;
     margin-right: 20px;
 }
-.content-imagen img{
+.container-imagen img{
     height: 80%;
     width: 80%;
     align-items:center;
@@ -402,3 +402,4 @@ footer{
     margin-top: 10px;
     margin-left: 30px;
 }
+
