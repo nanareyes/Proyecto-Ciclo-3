@@ -1,12 +1,12 @@
 body{
     margin-top: 0px;
-    font-family: Arial, Helvetica, sans-serif;
+    font-family: 'Times New Roman', Helvetica, sans-serif;
     background-color:rgb(236, 227, 238);
 }
 
 .content{
     width: 1200px;
-    background-color:  #F5B7B1;
+    background-color:  #FAF4EB;
     height: 2000px;
     -ms-flex-item-align: center;
     align-self: center;
@@ -40,7 +40,7 @@ body{
 
 .content-imagen{
     height: 120px;
-    background-color: #F5B7B1;
+    background-color: #FAF4EB;
     margin-bottom: 20px; 
     align-items:center;
     margin-top: 20px;
@@ -104,12 +104,12 @@ body{
 
 .section-news{
     height: 670px;
-    background-color: #F5B7B1;
+    background-color: #FAF4EB;
 }
 .section-text {
     margin: 0;
     color: #3e3e3e;
-    background: white;
+    background: #F1948A;
     font-weight: bold;
     text-align: center;
     align-items: center;
@@ -129,7 +129,7 @@ body{
 
 .news{
     width: 100%;
-    background-color: #F5B7B1;
+    background-color: #FAF4EB;
     height: 300px;
     display: -webkit-inline-box;
     display: -ms-inline-flexbox;
@@ -175,7 +175,7 @@ body{
 .news-data{
     width: 49%;
     height: 100%;
-    background-color:#F1948A   ;
+    background-color:#F8DFF1   ;
     display: -webkit-inline-box;
     display: -ms-inline-flexbox;
     display: inline-flex; 
@@ -278,12 +278,12 @@ body{
 }
 
 .section-serveces{
-    background-color: #F5B7B1;
+    background-color: #FAF4EB;
 }
 .section-text {
     margin: 0;
     color: #3e3e3e;
-    background: white;
+    background: #F1948A;
     font-weight: bold;
     text-align: center;
     align-items: center;
@@ -292,7 +292,7 @@ body{
 .columns{
     width: 100%;
     height: 10px;
-    background-color: #F5B7B1;
+    background-color: #FAF4EB;
     display: inline-block;
     padding: -10px;
     margin-top: 0px;
@@ -302,7 +302,7 @@ body{
 
 .services{
     width: 100%;
-    background-color: #F5B7B1;
+    background-color: #FAF4EB;
     height: 400px;
     display: -webkit-inline-box;
     display: -ms-inline-flexbox;
@@ -325,7 +325,7 @@ body{
 
 .container-footer2{
     width: 100%;
-    background: rgb(169, 164, 243);
+    background: #C39BD3;
 
 }
 
@@ -352,7 +352,7 @@ body{
 .services-data{
     width: 49%;
     height: 100%;
-    background-color:#F1948A   ;
+    background-color:#F8DFF1   ;
     display: -webkit-inline-box;
     display: -ms-inline-flexbox;
     display: inline-flex; 
@@ -389,8 +389,8 @@ body{
 footer{
     width: 1200px;
     height: 350px;
-    background: rgb(108, 101, 202);
-    color: rgb(254, 240, 255);
+    background: #C39BD3;
+    color: black;
     position:absolute;
     box-sizing: border-box;
     margin-top: -50px;
@@ -403,9 +403,41 @@ footer{
     margin-left: 30px;
 }
 
-.estilo-icono {
-    font-size: 64px;
-    border-style: outset;
-    background-color: #F5B7B1;
+.team{
+    width: 100%;
+    background-color: #FAF4EB;
+    height: 400px;
+    display: -webkit-inline-box;
+    display: -ms-inline-flexbox;
+    display: inline-flex; 
+    margin-bottom: 20px;
+
 }
-    
+
+.team-data {
+    width: 20%;
+    height: 100%;
+    background-color:#F8DFF1   ;
+    display: -webkit-inline-box;
+    display: -ms-inline-flexbox;
+    display: table-row; 
+    margin: 6 6px;
+    border-radius: 20px;
+    align-items: center;
+    text-align: center;
+}
+
+.avatar {
+    vertical-align: middle;
+    width: 100;
+    height: 100;
+    border-radius: 35%;
+  }
+
+.team-member-image {
+    margin-top: 10px;
+}
+
+.team-member-description {
+    padding: 8px 2px;
+}
