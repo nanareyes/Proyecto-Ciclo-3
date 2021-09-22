@@ -376,12 +376,21 @@ body{
 }
 .services-image img{
     height: 40%;
+<<<<<<< HEAD
 }
 
 .section-serveces{
     height: 450px;
 }
 
+=======
+}
+
+.section-serveces{
+    height: 450px;
+}
+
+>>>>>>> development
 .section-teams{
     height: 400px;
 }
@@ -440,4 +449,8 @@ footer{
 
 .team-member-description {
     padding: 8px 2px;
+<<<<<<< HEAD
 }
+=======
+}
+>>>>>>> development
