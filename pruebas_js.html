@@ -16,17 +16,21 @@
     </head>
 
     <body>
+      <div class="container">
         <h1>Agendy Nails</h1>
         <p id="mi_parrafo">Programa tu agenda con nosotros</p>
         <div id="icono">
             <i class="las la-cart-arrow-down estilo-icono" onclick="mostrarCarrito()"></i>
         </div>
+      </div>
 
         <script language="JavaScript">
             let nombre_cliente = 'Juanita';
-            mi_parrafo.innerText = 'Hola Señor(a)' + nombre_cliente;
-
-            function mostrarCarrito(){
+            mi_parrafo.innerText = 'Hola Señor(a) ' + nombre_cliente;
+        </script>
+    </body>
+</html>
+            /**function mostrarCarrito(){
                 Swal.fire({
                   title: '¿Estas de acuerdo con los servicios agregados al carrito?',
                   showDenyButton: true,
@@ -35,15 +39,11 @@
                   denyButtonText: `No guardar`,
                 }).then((result) => {
                   /* Read more about isConfirmed, isDenied below */
-                  if (result.isConfirmed) {
-                    Swal.fire('Saved!', '', 'success')
+                  /**if (result.isConfirmed) {
+                    Swal.fire('Servicios guadados en carrito', '', 'success')
                   } else if (result.isDenied) {
-                    Swal.fire('Changes are not saved', '', 'info')
+                    Swal.fire('Cambios no guardados en carrito', '', 'info')
                   }
                 })
             }
-            
- 
-        </script>
-    </body>
-</html>
+        

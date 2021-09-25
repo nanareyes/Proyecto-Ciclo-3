@@ -11,6 +11,7 @@
         <script src="/javascripts/myScript1.js"></script>
         <script src="https://www.w3schools.com/js/myScript1.js"></script> 
         <link rel="stylesheet" type="text/css" href="estilos.css">
+        <link rel="stylesheet" type="text/css" href="estilosSesionCliente.css">
         <link rel = "stylesheet" href = "https://maxst.icons8.com/vue-static/landings/line-awesome/line-awesome/1.3.0/css/line-awesome.min.css" > 
         <script src="//cdn.jsdelivr.net/npm/sweetalert2@11"></script>
         <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-F3w7mX95PdgyTmZZMECAngseQB83DfGTowi0iMjiWaeVhAn4FJkqJByhZMI3AhiU" crossorigin="anonymous">
@@ -48,79 +49,77 @@
                 </div>
             </div>
             <hr>
-            <div class="section-1" id="portafolioSevicios">
-                <p class="section-text">Portafolio de servicios</p>
-                <div class="columns"></div>
-        
-                <div class="services">
-                    <div class="services-data">             
-                        <div class="services-text">
-                            <h2 class="services-title">Maquillaje Semipermanente</h2>
-                            <hr>
-                            <p class="services-body">La manicura semipermanente es un maquillaje en uñas con esmaltado de larga duración, el cual puede ser aplicado en uñas naturales o artificiales.
-                                <span class="news-url"><a href="semipermanente.html">Ver más>></a></span></p>
+            <div class="container div-galeria" id="galeria">
+                <div class="row fila-productos">
+                    <div class="col-lg-4 col-md-6 col-sm-6 col-xs-12 tarjeta-producto">
+                        <img class="imagen-producto" style="width: 150px; height: 100px;" src="images/semipermanente.jpg">
+                        <h1 class="nombre-producto">Semipermanente</h1>
+                        <h3 class="precio-producto">$35.000</h3>
+                        <div class="descripcion-producto">
+                            <p>Diferentes decorados y colores</p>
                         </div>
-                        
-                        <div class= "services-image">
-                            <img src="images/uñas2.png">
+                        <div id="icono" class="div-icono">
+                            <i class="las la-cart-arrow-down estilo-icono" onclick="agregarAlCarrito('Maquillaje semipermanente', 35000)"></i>
+                            <p><b>Agregar al carrito</b></p>
                         </div>
-                        
-                    </div>  
-                    <div class="services-data">             
-                        <div class="services-text">
-                            <h2 class="services-title">Uñas acrílicas</h2>
-                            <hr>
-                            <p class="services-body">Las uñas acrílicas son una mezcla de polvo y monómero líquido que se combina en una masa, se le da forma a las uñas con un cepillo y luego se seca al aire libre. 
-                                <span class="news-url"><a href="acrilicas.html">Ver más>></a></span></p>
+                    </div>
+                    <div class="col-lg-4 col-md-6 col-sm-6 col-xs-12 tarjeta-producto">
+                        <img class="imagen-producto" style="width: 150px; height: 100px;" src="images\uñasacrilicas.jpg">
+                        <h1 class="nombre-producto">Acrílicas</h1>
+                        <h3 class="precio-producto">$80.000</h3>
+                        <div class="descripcion-producto">
+                            <p>Elige tu decorado</p>
                         </div>
-                        <div class= "services-image">
-                            <img src="images/uñas.png">
+                        <div id="icono" class="div-icono">
+                            <i class="las la-cart-arrow-down estilo-icono" onclick="agregarAlCarrito('Uñas Acrílicas', 80000)"></i>
+                            <p><b>Agregar al carrito</b></p>
+                        </div>
+                    </div>
+                    <div class="col-lg-4 col-md-6 col-sm-6 col-xs-12 tarjeta-producto">
+                        <img class="imagen-producto" style="width: 150px; height: 100px;" src="images\uñasengel.jpg">
+                        <h1 class="nombre-producto">En gel</h1>
+                        <h3 class="precio-producto">$60.000</h3>
+                        <div class="descripcion-producto">
+                            <p>Elige el color</p>
+                        </div>
+                        <div id="icono" class="div-icono">
+                            <i class="las la-cart-arrow-down estilo-icono" onclick="agregarAlCarrito('Uñas en Gel', 60000)"></i>
+                            <p><b>Agregar al carrito</b></p>
+                        </div>
+                    </div>
+                    <div class="col-lg-4 col-md-6 col-sm-6 col-xs-12 tarjeta-producto">
+                        <img class="imagen-producto" style="width: 150px; height: 100px;" src="images\manicure.jpg">
+                        <h1 class="nombre-producto">Manicure</h1>
+                        <h3 class="precio-producto">$15.000</h3>
+                        <div class="descripcion-producto">
+                            <p>Elige tu decorado</p>
+                        </div>
+                        <div id="icono" class="div-icono">
+                            <i class="las la-cart-arrow-down estilo-icono" onclick="agregarAlCarrito('Manicure', 15000)"></i>
+                            <p><b>Agregar al carrito</b></p>
+                        </div>
+                    </div>
+                    <div class="col-lg-4 col-md-6 col-sm-6 col-xs-12 tarjeta-producto">
+                        <img class="imagen-producto" style="width: 150px; height: 100px;" src="images\pedicure.jpg">
+                        <h1 class="nombre-producto">Pedicure</h1>
+                        <h3 class="precio-producto">$15.000</h3>
+                        <div class="descripcion-producto">
+                            <p>Elige el corte y decorado</p>
+                        </div>
+                        <div id="icono" class="div-icono">
+                            <i class="las la-cart-arrow-down estilo-icono" onclick="agregarAlCarrito('pedicure', 15000)"></i>
+                            <p><b>Agregar al carrito</b></p>
                         </div>
                     </div>
                 </div>
-                <div class="services">
-                    <div class="services-data">             
-                        <div class="services-text">
-                            <h2 class="services-title">Uñas en gel</h2>
-                            <hr>
-                            <p class="services-body">Aunque las uñas de gel y acrílicas pueden proporcionar resultados similares, existen diferencias clave con cada estilo de uñas. 
-                                Las uñas en gel por lo general consisten en cepillar capas de esmalte en las uñas naturales y se curan con una lámpara UV.
-                                <span class="news-url"><a href="enGel.html">Ver más>></a></span></p>
-                        </div>
-                        <div class= "services-image">
-                            <img src="images/uñas3.png">
-                        </div>
-                    </div> 
-                    <div class="services-data">             
-                        <div class="services-text">
-                            <h2 class="services-title">Manicure</h2>
-                            <hr>
-                            <p class="services-body">Este decorado a pesar de durar menos no maltrata tanto las capas supersificiales de la uña.
-                                <span class="news-url"><a href="manicure.html">Ver más>></a></span></p>
-                        </div>
-                        <div class= "services-image">
-                            <img src="images/manicure2.jpg">
-                        </div>
-                    </div>
-                </div>
-                <div class="services">
-                    <div class="services-data">             
-                        <div class="services-text">
-                            <h2 class="services-title">Pedicure</h2>
-                            <hr>
-                            <p class="services-body">Tratamiento cosmético superficial de las uñas de los pies. Este tratamiento, no trata exclusivamente de las uñas de los pies, sino el cuidado integral de los pies.
-                                <span class="news-url"><a href="pedicure.html">Ver más>></a></span></p>
-                        </div>
-                        <div class= "services-image">
-                            <img src="images/pedicure2.jpg">
-                        </div>
-                    </div>  
-                </div> <br> <br> 
                 
-                
+                <div class="tarjeta-total">
+                    <h2>TOTAL</h2>
+                    <h2 id="total_carrito">$</h2>
+                </div> 
+               
             </div>
-              
-                    
+            <br> <br> <hr> 
             <footer>
                 <div class="container-fooder-all">
                     <div class="container-body">
