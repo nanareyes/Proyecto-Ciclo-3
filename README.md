@@ -1,6 +1,9 @@
+<<<<<<< HEAD
 # Proyecto-Ciclo-3
 
 
+=======
+>>>>>>> yenny
 Actividad Ciclo 3
 
 Desarrollar un sitio web que conste de 5 secciones que serán trabajadas en equipos de 5 integrantes.
